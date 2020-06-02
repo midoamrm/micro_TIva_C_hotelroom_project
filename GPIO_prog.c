@@ -9,7 +9,7 @@
 
 #define getBit(PIN,Pin)	(PIN=(PIN & (1<<Pin)))
 
-//This is GPIO driver
+
 
 void GPIO_init(u8 Port){		//enable LOCK , enable registers writing
 	
