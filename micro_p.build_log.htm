@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil\micro_P\micro_p.uvproj
+Project File Date:  05/19/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=3118 RO-data=654 RW-data=12 ZI-data=644  
+".\micro_p.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+ Pin>=0 && Pin<=7){
+GPIO_prog.c(79): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(Port>=0 && Port<=5 && Pin>=0 && Pin<=7){
+GPIO_prog.c(120): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(Port>=0 && Port<=5){
+GPIO_prog.c(162): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(Port>=0 && Port<=5 && Pin>=0 && Pin<=7){
+GPIO_prog.c(162): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(Port>=0 && Port<=5 && Pin>=0 && Pin<=7){
+GPIO_prog.c(170): warning:  #111-D: statement is unreachable
+                        break;
+GPIO_prog.c(210): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(Port>=0 && Port<=5 && Pin>=0 && Pin<=7){
+GPIO_prog.c(210): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(Port>=0 && Port<=5 && Pin>=0 && Pin<=7){
+GPIO_prog.c(253): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(Port>=0 && Port<=5){
+GPIO_prog.c(295): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(Port>=0 && Port<=5){
+GPIO_prog.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=3118 RO-data=654 RW-data=12 ZI-data=644  
+".\micro_p.axf" - 0 Error(s), 10 Warning(s).
+r used
+    uint32_t delay; // dummy varible
+main.c(204): error:  #165: too few arguments in function call
+            passcode_keypade=KPD_getPassword(kpd_sc);
+main.c(208): error:  #165: too few arguments in function call
+            passcode_keypade=KPD_getPassword(kpd_sc);
+main.c(158): warning:  #177-D: variable "cont" was declared but never referenced
+                int cont=0;
+main.c(226): warning:  #1-D: last line of file ends without a newline
+   
+main.c: 3 warnings, 2 errors
+compiling KPD_prog .c...
+KPD_prog .c(1): error:  #5: cannot open source input file "KPD_Int.h": No such file or directory
+  #include "KPD_Int.h"
+KPD_prog .c: 0 warnings, 1 error
+".\micro_p.axf" - 3 Error(s), 13 Warning(s).
+Target not created
