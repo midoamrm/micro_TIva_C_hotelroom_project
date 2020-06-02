@@ -7,7 +7,9 @@
 								else if(val==0) ((var)&= ~(1 << (Bno))); \
 								}while(0)
 
-#define getBit(PIN,Pin)	(PIN=(PIN & (1<<Pin)))		
+#define getBit(PIN,Pin)	(PIN=(PIN & (1<<Pin)))
+
+//This is GPIO driver
 
 void GPIO_init(u8 Port){		//enable LOCK , enable registers writing
 	
