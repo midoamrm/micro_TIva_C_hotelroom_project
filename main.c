@@ -209,7 +209,7 @@ void UART_Receive_String(char *Str)
 			 }
 			 if(strcmp( roomnum, ROOMNUM[1])==0){
 	    passcode_keypade=KPD_getPassword(kpd_sc,Port_C);
-				 // here i must  change  from connceted  keypad portD to anther port as each room have its keypad and so its port
+				 // here i must  change  from connceted  keypad portD to  port c as each room have its keypad and so its port
 			 }
 		// here i can add many if to check room nuber and many  keypads with many ports according to max room number
 		}
